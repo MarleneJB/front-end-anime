@@ -1,4 +1,4 @@
-var url="http://localhost:3500/api/animes";
+var url="https://animefinal-service-marlenejb.cloud.okteto.net";
 
 function postAnime(){
     console.log(url);
