@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Animes</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+
+      </head>
+    <body>
+        <p>
+            Consumo de REST-API de Anime
+        </p>
+
+        <div>
+            <label>Nombre:</label>
+            <input type="text" id="name">
+        </div>
+        <div>
+            <label>Sinopsis: </label>
+            <input type="text" id="sinopsis">
+        </div>
+        <div>
+            <label>Episodios:</label>
+            <input type="text" id="episodios">
+        </div>
+        <div>
+            <label>Temporadas:</label>
+            <input type="text" id="temporadas">
+        </div>
+        <div>
+            <label>Estado:</label>
+            <input type="text" id="estado">
+        </div>
+        <div>
+            <label>Generos:</label>
+            <input type="text" id="generos">
+        </div>
+        <div>
+            <label>Estudio:</label>
+            <input type="text" id="estudio">
+        </div>
+        
+        <button onclick="postAnime()">POST Anime </button>
+        <button onclick="getAnimes()">GET Animes </button>
+        
+        <div id="resultado"></div>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="callrestapi.js"></script>
+  </body>
+</html>
