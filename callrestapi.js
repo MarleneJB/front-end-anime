@@ -1,4 +1,4 @@
-var url="https://animefinal-service-marlenejb.cloud.okteto.net";
+var url="https://animes-service-marlenejb.cloud.okteto.net/api/animes";
 
 function postAnime(){
     console.log(url);
