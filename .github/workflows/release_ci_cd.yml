@@ -1,9 +1,9 @@
 name: release CI, CD workflow 
 on: 
   push:
-    branches: [ "release"]
+    branches: [ "main"]
   pull_request:
-    branches: [ "release"]
+    branches: [ "main"]
 jobs:
   release:
     runs-on: ubuntu-latest
